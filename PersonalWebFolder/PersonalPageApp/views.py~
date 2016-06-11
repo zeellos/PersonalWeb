@@ -21,6 +21,7 @@ def main_page(request):
             'especialidad3': u'Ciencias de la Computación',
             'especialidad4': u'Seguridad de la Información',
             'descargarCV' : u'Descargar CV',
-            'trayectoriaProfesional': u'Trayectoria'
+            'trayectoriaProfesional': u'Trayectoria',
+            'experience': u'Experiencia'
         })
     )

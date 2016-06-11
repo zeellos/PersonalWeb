@@ -76,7 +76,7 @@
 				<span class="line"></span>
 			</div>
 			<div class="exp-devide">
-				<h4>Experience</h4>
+				<h4>{{experience}}</h4>
 				<span class="devide-line">
 				</span>
 				<label class="bag"></label>
