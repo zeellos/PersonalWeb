@@ -81,41 +81,44 @@
 				</span>
 				<label class="bag"></label>
 				<div class="exp-devide-grid-right">
-					<h5>SENIOR UI/UX DESIGNER</h5>
-					<small>Google - 2013 . Current</small>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+					<h5>{{trabajo3cabecera}}</h5>
+					<small>{{trabajo3titulo}}</small>
+					<p> {{trabajo3descripcion}}</p>
 				</div>
 				<div class="exp-devide-grid-left">
-					<h5>JUNIOR UI DESIGNER</h5>
-					<small>Microsoft - 2010 . 2012</small>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-				</div>
+					<h5>{{trabajo2cabecera}}</h5>
+					<small>{{trabajo2titulo}}</small>
+					<p> {{trabajo2descripcion}}</p>
+			    </div>
 				<div class="exp-devide-grid-rightb">
-					<h5>UI/UX DESIGNER</h5>
-					<small>IBM - 2006 . 2010</small>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-				</div>
+					<h5>{{trabajo1cabecera}}</h5>
+					<small>{{trabajo1titulo}}</small>
+					<p> {{trabajo1descripcion}}</p>
+			    </div>
+			    
 			</div>
 			<div class="exp-devide education">
-				<h4>Education</h4>
+				<h4>{{educacion}}</h4>
 				<span class="devide-line">
 				</span>
 				<label class="book"></label>
 				<div class="exp-devide-grid-right">
-					<h5>MASTERS DEGREE</h5>
-					<small>Modern Sciences & Arts University - 2014 . 2012</small>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+					<h5>{{estudio3cabecera}}</h5>
+					<small>{{estudio3titulo}}</small>
+					<p>{{estudio3descripcion}}</p>
 				</div>
 				<div class="exp-devide-grid-left">
-					<h5>BACHELORS DEGREE</h5>
-					<small>Modern Sciences & Arts University - 2012 . 2010</small>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+					<h5>{{estudio2cabecera}}</h5>
+					<small>{{estudio2titulo}}</small>
+					<p>{{estudio2descripcion}}</p>
 				</div>
+				<!--
 				<div class="exp-devide-grid-rightb">
 					<h5>GRADUATION</h5>
 					<small>Modern Sciences & Arts University - Faculty of Computer Science - 2006 . 2010</small>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
 				</div>
+				-->
 			</div>
 		</div>
 	</div>
@@ -124,35 +127,35 @@
 	<div class="skills">
 		<div class="container">
 			<div class="skills-top">
-				<h3 class="top-title">Skills</h3>
+				<h3 class="top-title">{{habilidades}}</h3>
 				<span class="line"></span>
 				<div class="row skill-grids text-center">
 									<div class="col-md-3 skill-column">	
 										<div class="skill-grid">
-											<div class="circle" id="circles-1"></div>									
-											 <h3>PHOTOSHOP</h3>	
-											 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+											<div class="circle" id="circles-1"></div>
+											 <h3>{{habilidades1titulo}}</h3>	
+											 <p>{{habilidades1Descripcion}}</p>
 										 </div>								  
 									</div>
 									<div class="col-md-3 skill-column">	
 										<div class="skill-grid">
 											<div class="circle" id="circles-2"></div>									
-											 <h3>ILLUSTRATOR</h3>	
-											 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+											 <h3>{{habilidades2titulo}}</h3>	
+											 <p>{{habilidades2Descripcion}}</p>
 										 </div>								  
 									</div>
 									<div class="col-md-3 skill-column">	
 										<div class="skill-grid">
 											<div class="circle" id="circles-3"></div>									
-											 <h3>HTML/CSS</h3>	
-											 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+											 <h3>{{habilidades3titulo}}</h3>	
+											 <p>{{habilidades3Descripcion}}</p>
 										 </div>								  
 									</div>
 									<div class="col-md-3 skill-column">	
 										<div class="skill-grid">
 											<div class="circle" id="circles-4"></div>									
-											 <h3>JAVASCRIPT</h3>
-											 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>	
+											 <h3>{{habilidades4titulo}}</h3>	
+											 <p>{{habilidades4Descripcion}}</p>
 										 </div>								  
 									</div>
 									<div class="clearfix"> </div>
@@ -174,7 +177,7 @@
 											percentage: percentage,
 											radius:     80,
 											width:      15,
-											number:   	percentage / 10,
+											number:   	percentage,
 											text:       '%',
 											colors:     colors[i - 1]
 										});
@@ -185,6 +188,7 @@
 	</div>
 	<!--- Skills Ends Here --->
 	<!-- Social Media Connections ---->
+	<!--
 	<div class="social-media">
 		<div class="container">
 			<div class="social-media-top">
@@ -202,8 +206,10 @@
 			</div>
 		</div>
 	</div>
+	-->
 	<!-- Social Media Connections ---->
 	<!--- Awards Starts Here ---->
+	<!--
 	<div class="awards">
 		<div class="container">
 			<div class="awards-top">
@@ -235,14 +241,20 @@
 			</div>
 		</div>
 	</div>
+	-->
 	<!--- Awards Ends Here ---->
 	<!--- Twitter Feed Starts Here ---->
+	<!--
 	<div class="twitter">
 		<div class="container">
 			<div class="twitter-top">
 				<i class="twit"></i>
 				<span class="line"></span>
+				
+	-->
 				<!-- Slideshow 4 -->
+				
+	<!--
 			    <div  id="top" class="callbacks_container">
 			      <ul class="rslides" id="slider4">
 			        <li>
@@ -274,7 +286,10 @@
 			    </div>
 			    <div class="clearfix"> </div>
 			</div>
+	-->
 			<!--- Slider Script --->
+			
+	<!--(3)
 					<script src="static/js/responsiveslides.min.js"></script>
 					 <script>
 					    // You can also use "$(window).load(function() {"
@@ -296,12 +311,15 @@
 					
 					    });
 					  </script>
+	(3)-->
 			<!----//End-slider-script---->
-
+    <!--(4)
 		</div>
 	</div>
+	(4)-->
 	<!--- Twitter Feed Ends Here ---->
 	<!--- Contact Starts Here ---->
+	<!--
 	<div class="contact">
 		<div class="container">
 			<div class="contact-top">
@@ -340,11 +358,14 @@
 			</div>
 		</div>
 	</div>
+	-->
 	<!--- Contact Ends Here ---->
 	<!--- Footer Starts Here ---->
+	
 	<div class="footer">
 		<div class="container">
-			<p class="copyright">2014 Template By <a href="http://w3layouts.com">W3layouts</a></p>
+			<!--<p class="copyright">2014 Template By <a href="http://w3layouts.com">W3layouts</a></p>-->
+			<span style="color:white;"> Ronald Juarez 2016 </span>
 		</div>
 	</div>
 	<!--- Footer Ends Here ---->
