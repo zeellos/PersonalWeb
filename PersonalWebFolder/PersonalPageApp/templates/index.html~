@@ -170,7 +170,7 @@
 										];
 									for (var i = 1; i <= 6; i++) {
 										var child = document.getElementById('circles-' + i),
-											percentage = 50 + (i * 10);
+											percentage = 50 + ( (5-i) * 10);
 											
 										Circles.create({
 											id:         child.id,
